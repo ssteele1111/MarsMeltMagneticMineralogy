@@ -10,9 +10,10 @@ Regenerate Perple_X outputs:
 Results from individual runs are stored as 
 '03_Data/[crystallization style]/[QFM_m#]/[COMP]' where # denotes the number of log units below the QFM buffer.
 
-eq: Equilibrium crystallization
-eqfrac: Equilbrium crystallization transtioning to fractional crystallization at 60 vol% crystal fraction
-frac: Fractional crystallization
+eq: Equilibrium crystallization.
+eqfrac: Equilbrium crystallization transtioning to fractional crystallization at 60 vol% crystal fraction.
+frac: Fractional crystallization.
+LP: Low pressure (50 MPa). Folders without 'LP' include calculations are performed at 250 MPa.
 
 ## 01_ThermodynamicDataFiles
 Contains the thermodynamic data files for the Tomlinson and Holland (2021) thermodynamic modeled modified to buffer fO2 at different levels according to the instructions at https://www.perplex.ethz.ch/perplex/faq/how_to_buffer_chemical_potentials.txt. These should be copied into the main Perple_X directory after installation.
