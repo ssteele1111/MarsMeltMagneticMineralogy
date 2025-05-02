@@ -1,0 +1,109 @@
+
+----------------------------------------
+
+Stable phases at:
+                             T(K)     =  1525.64    
+                             P(bar)   =  500.000    
+
+Phase Compositions (molar  proportions):
+                   wt %      vol %     mol %     mol        SiO2     TiO2     Al2O3    Cr2O3    FeO      MnO      MgO      CaO      Na2O     K2O      NiO      O2   
+ Sp(TH)             0.93      0.66      0.77    0.452E-02  0.00000  0.00152  0.22252  0.73489  0.76206  0.00000  0.32160  0.00000  0.00000  0.00000  0.00000  0.02054
+ melt(TH)          35.53     39.89     31.36    0.184      1.64483  0.02650  0.14639  0.00450  0.38772  0.00000  0.65702  0.30448  0.04123  0.00173  0.00000  0.00575
+ Opx(TH)            1.26      1.22      0.97    0.571E-02  1.93437  0.00066  0.04000  0.02199  0.44281  0.00000  1.43145  0.06536  0.00069  0.00000  0.00000  0.00184
+ O(HP)             61.44     57.50     65.82    0.386      1.00000  0.00000  0.00000  0.00000  0.52480  0.00000  1.47520  0.00000  0.00000  0.00000  0.00000  0.00000
+ pxmn               0.84      0.74      1.08    0.634E-02  1.00000  0.00000  0.00000  0.00000  0.00000  1.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+
+Phase speciation (molar proportions):
+
+ Sp(TH)            picr: 0.73489, usp: 0.00152, imt: 0.07944, ispTH: 0.02465, iherc: 0.04036, nmt: -0.03837, nsp: -0.43793
+                   nherc: 0.59545
+ melt(TH)          foTHL: 0.07275, faTHL: 0.09118, abL: 0.06809, kspL: 0.00245, neTHL: 0.01436, silL: 0.09915, kjTHL: 0.00101
+                   woL: 0.30020, ekTHL: 0.00900, hmTHL: 0.02300, tiTHL: 0.02650, qTHL: 0.10501, anTHL: 0.00428, enTHL: 0.18300
+ Opx(TH)           ojdTH: 0.00138, obufTH: 0.00132, crenTH: 0.04397, macmTH: 0.00735, mgts: 0.01299, odi: 0.06536, fs: 0.12291
+                   en: 0.55508, fm: 0.18963
+ O(HP)             fran: 0.00000, fo: 0.73760, fa: 0.26240
+
+Structural formulae for 688 format solution models:
+
+ Phase           Site  Multiplicity  Molar Site Fractions
+
+ Sp(TH)        
+                  M       1.00       Fe(.5586)Fe3(.0794)Al(.0650)Mg(.2970)
+                  T       2.00       Mg(.0123)Fe(.0607)Ti(.0008)Fe3(.0014)Cr(.7349)Al(.1900)
+           Non-mixing stoichiometry: [O4]                                                        
+
+ melt(TH)      
+                  M       1.06       Mg(.2758)Fe(.3457)Ca(.2845)Al(.0940)
+                  F       1.00       ne(.0144)kjL(.0010)ksp(.0025)ab(.0681)an(.0043)en(.1830)als(.0992)si0(.3002)ol(.1639)q(.1050)ek(.0090)tiL(.0265)hem(.0230)
+ Opx(TH)       
+                  M1      1.00       fe(.1229)al(.0144)fe3(.0074)cr(.0440)ti(.0007)Mg(.8107)
+                  M2      1.00       fe(.3125)ca(.0654)na(.0014)Mg(.6207)
+                  T       2.00       Al(.0328)Si(.9672)
+           Non-mixing stoichiometry: [O6]                                                        
+
+
+Molar Properties and Density:
+                    N(g)          G(J)     S(J/K)     V(J/bar)      Cp(J/K)       Alpha(1/K)  Beta(1/bar)    Cp/Cv    Density(kg/m3)
+ Sp(TH)            202.87       -1927728   425.51       4.5326       193.29      0.35016E-04  0.60756E-06   1.0778       4475.9    
+ melt(TH)          190.87       -2827712   519.23       6.7592       285.78      0.62744E-04  0.46692E-05   1.0314       2823.8    
+ Opx(TH)           216.97       -3233145   531.92       6.6425       273.92      0.42764E-04  0.12955E-05   1.0551       3266.4    
+ O(HP)             157.24       -2215741   383.67       4.6414       191.66      0.42570E-04  0.94454E-06   1.0763       3387.8    
+ pxmn              131.02       -1503308   284.90       3.6191       129.99      0.38343E-04  0.14092E-05   1.0464       3620.3    
+ System             98.76       -1411619   250.28       3.1151       129.76      0.50539E-04  0.24358E-05   1.0399       3170.2    
+ System - Fluid     63.67        -891750   154.82       1.8725       77.224      0.42440E-04  0.95366E-06   1.0751       3400.1    
+
+Seismic Properties:
+                 Gruneisen_T      Ks(bar)      Mu(bar)    V0(km/s)     Vp(km/s)     Vs(km/s)   Poisson ratio
+ Sp(TH)             1.4567      0.17740E+07  0.59134E+06   6.2956       7.5664       3.6348      0.35000    
+ melt(TH)          0.32780      0.22089E+06   0.0000       2.7969       2.7969       0.0000      0.50000    
+ Opx(TH)           0.84456      0.81442E+06  0.27147E+06   4.9933       6.0012       2.8829      0.35000    
+ O(HP)              1.1747      0.11395E+07  0.37983E+06   5.7995       6.9702       3.3484      0.35000    
+ pxmn              0.79268      0.74254E+06  0.24751E+06   4.5288       5.4430       2.6147      0.35000    
+ System            0.83189      0.59893E+06   0.0000       4.3465       4.3465       0.0000      0.50000    
+ System - Fluid     1.1664      0.11312E+07  0.37706E+06   5.7679       6.9322       3.3301      0.35000    
+
+Bulk Composition:
+                     Complete Assemblage                              Solid Only
+              mol        g        wt %     mol/kg          mol        g        wt %     mol/kg
+    SiO2      0.706    42.400    42.934     7.146          0.403    24.231    38.059     6.334
+    TiO2      0.005     0.390     0.395     0.049          0.000     0.001     0.001     0.000
+    Al2O3     0.028     2.870     2.906     0.285          0.001     0.126     0.198     0.019
+    Cr2O3     0.004     0.650     0.658     0.043          0.003     0.524     0.823     0.054
+    FeO       0.280    20.100    20.353     2.833          0.208    14.979    23.527     3.275
+    MnO       0.006     0.450     0.456     0.064          0.006     0.450     0.707     0.100
+    MgO       0.700    28.200    28.555     7.085          0.579    23.332    36.646     9.093
+    CaO       0.056     3.160     3.200     0.571          0.000     0.021     0.033     0.006
+    Na2O      0.008     0.470     0.476     0.077          0.000     0.000     0.000     0.000
+    K2O       0.000     0.030     0.030     0.003          0.000     0.000     0.000     0.000
+    NiO       0.000     0.000     0.000     0.000          0.000     0.000     0.000     0.000
+    O2        0.001     0.037     0.038     0.012          0.000     0.003     0.005     0.002
+
+Other Bulk Properties:
+
+ Enthalpy (J/kg) = -.104274E+08
+ Specific Enthalpy (J/m3) = -.330572E+11
+ Entropy (J/K/kg) =  2534.32    
+ Specific Entropy (J/K/m3) = 0.803438E+07
+ Heat Capacity (J/K/kg) =  1313.97    
+ Specific Heat Capacity (J/K/m3) = 0.416559E+07
+
+ Solid Enthalpy (J/kg) = -.102965E+08
+ Solid Secific Enthalpy (J/m3) = -.350096E+11
+ Solid Entropy (J/K/kg) =  2431.78    
+ Solid Specific Entropy (J/K/m3) = 0.826836E+07
+ Solid Heat Capacity (J/K/kg) =  1300.90    
+ Solid Specific Heat Capacity (J/K/m3) = 0.412414E+07
+
+N.B.: melt, when stable, is identified as a fluid phase for purposes of computing aggregate
+properties. To include melt properties in the solid aggregate set melt_is_fluid to F.
+
+Chemical Potentials (J/mol):
+
+      SiO2          TiO2          Al2O3         Cr2O3         FeO           MnO           MgO           CaO           Na2O          K2O           NiO  
+    -987473.     -0.106018E+07 -0.182348E+07 -0.133143E+07  -404910.      -515836.      -688566.      -817541.      -943948.     -0.109854E+07  -978090.    
+
+Variance (c-p+2) =  8
+
+
+----------------------------------------
+

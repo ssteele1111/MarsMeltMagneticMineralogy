@@ -1,0 +1,33 @@
+|----------------------------------------------------------------------
+
+        | Run-time Perple_X 6.9.1 options:
+
+        | For option documentation refer to: www.perplex.ethz.ch/perplex_options.html
+
+        | Sarah Steele, 10/2/24 
+	| 
+
+| OPTIMIZATION PARAMETERS
+|----------------------------------------------------------------------
+
+LP_max_it                 2000 | [500] max number of iterations for a single LP optimization
+optimization_max_it       60 | [40] maximum number of sucessive LP optimizations
+1d_path                   100 400 | [40 150] exploratory and autorefine (grid parameters keyword group)
+auto_refine               default | [auto] auto, manual, or off (auto_refine keyword group)
+grid_levels               default | [1 4] exploratory and auto-refine (grid parameters keyword group)
+initial_resolution        1/7 | VERTEX/MEEMUM [1/5]. CONVEX: Schreinemakers [1/16 1/48], composition and mixed variable diagrams [1/16 1/160].
+interim_results           default | [auto] auto, off or on
+interpolation             default | [on 2] value 1: on or off [on]; value 2, 1->99 [2]; only relevant for WERAMI
+output_iteration_details  default | [F] T => output intermediate adaptive optimization information
+output_iteration_G        default | [F] T => print iteration G to monitor convergence during optimization
+refine_endmembers         default | [F] accept endmember compositions as refinement points
+reject_negative_sites     default | [T] reject compositions with negative site populations
+speciation_max_it         600 | [300] maximum number of iterations permitted in iterative calculations
+
+| UNITS/WERAMI OUTPUT
+|----------------------------------------------------------------------
+composition_phase         mol | [mol] mol or wt (mass) phase compositions in WERAMI output
+composition_system        mol | [wt] mol or wt; system composition in WERAMI mode 2-4 output
+proportions               vol | [vol] vol, wt, or mol; volume, weight (mass), or molar phase proportions
+absolute                  default | [F] WERAMI - output absolute component amounts
+cumulative                default | [F] WERAMI, computational mode 3, property choice #36 only!- cumulative component amounts (for fractionation problems)
