@@ -11,9 +11,13 @@ Results from individual runs are stored as
 '03_Data/[crystallization style]/[QFM_m#]/[COMP]' where # denotes the number of log units below the QFM buffer.
 
 eq: Equilibrium crystallization.
+
 eqfrac: Equilbrium crystallization transtioning to fractional crystallization at 60 vol% crystal fraction.
+
 frac: Fractional crystallization.
+
 LP: Low pressure (50 MPa). Folders without 'LP' include calculations performed at 250 MPa.
+
 D5: "Depleted" compositions perform on the residual solid from 5% partial melting of the initial mantle composition (in Text S2 of the Supplementary Information)
 
 ## 01_ThermodynamicDataFiles
@@ -24,14 +28,23 @@ Perple_X option files with variable 'proportions' settings to produce modal, mol
 
 ## 03_Data
 *[COMP].dat:* Output file of Perple_X build. Running vertex with the name (including the path but excluding the .dat) will run the simulation. 
+
 *phase_wt_props:* wt proportion of each phase in the system at each temperature step.
+
 *phase_vol_props:* Volume proportion of each phase in the system at each temperature step.
+
 *Sp(TH)_tot_mass:* Total mass in kg of spinel produced at each temperature step.
+
 *Sp(TH)_tot_vol:* Total volume in m^3 of spinel produced at each temperature step.
+
 *Sp(TH)_mol_prop:* Molar proportion of each spinel endmember at each temperature step.
+
 *system_props:* Physical properties of the system at each temperature step. Does not include previously fractionated material.
+
 *lockup_temp_props (eq only):* Properties of the system when the volume fraction of melt reaches approximately 40%.
+
 *solid_dens:* Bulk density of the solid portion (eq) or the material fractionated at each temperature step (frac/eqfrac).
+
 *[COMP]_fractionated_bulk.dat* (frac/eqfrac only): Total moles of each oxide fractionated at each temperature step.
 
 ## Instructions for reproducing Perple_X outputs
@@ -41,4 +54,5 @@ Perple_X option files with variable 'proportions' settings to produce modal, mol
 
 ## Non-standard data
 The folder named 'Dep5' in the 03_Data folder contains the partial melting calculations used to determine depleted compositions in Text S2 of the Supplementary Information.
+
 The folder 04_BData contains the magnetic field data plotted in Figures 5 and S5. Magnetic field data are scaled to 1 A/m by default and defined on the mesh np.meshgrid(np.arange(-1250e3,1251e3,50e3),np.arange(-1250e3,1251e3,50e3)) in units of km.
