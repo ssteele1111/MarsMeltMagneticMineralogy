@@ -13,7 +13,8 @@ Results from individual runs are stored as
 eq: Equilibrium crystallization.
 eqfrac: Equilbrium crystallization transtioning to fractional crystallization at 60 vol% crystal fraction.
 frac: Fractional crystallization.
-LP: Low pressure (50 MPa). Folders without 'LP' include calculations are performed at 250 MPa.
+LP: Low pressure (50 MPa). Folders without 'LP' include calculations performed at 250 MPa.
+D5: "Depleted" compositions perform on the residual solid from 5% partial melting of the initial mantle composition (in Text S2 of the Supplementary Information)
 
 ## 01_ThermodynamicDataFiles
 Contains the thermodynamic data files for the Tomlinson and Holland (2021) thermodynamic modeled modified to buffer fO2 at different levels according to the instructions at https://www.perplex.ethz.ch/perplex/faq/how_to_buffer_chemical_potentials.txt. These should be copied into the main Perple_X directory after installation.
@@ -37,3 +38,7 @@ Perple_X option files with variable 'proportions' settings to produce modal, mol
 - copy the Archiving directory into your main Perple_X directory
 - copy 'perplex_option_wt.dat' into the working directory (folder containing the Perple_X build output file) and rename it to 'perplex_option.dat'
 - from the main Perple_X install directory, run vertex, and supply the project name (the name of the Perple_X build output file, of the form 'Archiving/[crystallization style]/[QFM_m#]/[COMP]/[COMP]')
+
+## Non-standard data
+The folder named 'Dep5' in the 03_Data folder contains the partial melting calculations used to determine depleted compositions in Text S2 of the Supplementary Information.
+The folder 04_BData contains the magnetic field data plotted in Figures 5 and S5. Magnetic field data are scaled to 1 A/m by default and defined on the mesh np.meshgrid(np.arange(-1250e3,1251e3,50e3),np.arange(-1250e3,1251e3,50e3)) in units of km.
